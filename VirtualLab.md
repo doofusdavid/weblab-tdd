@@ -11,7 +11,7 @@ create a new test method in userTest.class.php:
 
 ```
     /* Set a valid email address, and check to make sure the property is set */
-    testEmailIsValid()
+    testEmailSetAndGet()
 ```
 
 ### Step Three
@@ -25,18 +25,17 @@ Create a new method in userTest.class.php:
 
 ```
 /* Set an invalid email address, and check to make sure the property is blank */
-/* hint: google filter_var */
 testEmailIsInvalid()
 ```
 
 ### Step Six
-Re-run the tests.  That test should fail.
+Re-run the tests.  That new test should fail.
 
 ### Step Seven
-Change user.class.php to ensure that an invalid email address results in an empty string for the email
+Change user.class.php to ensure that an invalid email address results in an empty string for the email.  Hint: google php validate email
 
 ### Step Eight
 Re-run the tests.  All tests should pass.
 
 ### Step Nine
-Send me the changes to user.class.php and usertest.class.php
+Send me your changes to user.class.php and usertest.class.php
