@@ -9,6 +9,7 @@ First, run `phpunit` on the 3crud/tests/userTest.class.php and ensure that there
 ### Step Two
 create a new test method in userTest.class.php:
 
+test
 ```
     /* Set a valid email address, and check to make sure the property is set */
     testEmailSetAndGet()
